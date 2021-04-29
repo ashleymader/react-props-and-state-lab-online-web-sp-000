@@ -5,6 +5,7 @@ class Filters extends React.Component {
   handleChange = e => { 
     this.props.onChangeType(e.target.value)
   }
+  
   render() {
     return (
       <div className="ui form">
